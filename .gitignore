@@ -1,11 +1,88 @@
-node_modules/
-dist/
-coverage/
-.env
-.env.*
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and instrumented output
+coverage/
+*.lcov
+.nyc_output
+lib-cov
+
+# Build output
+dist/
+build/Release
+out
+.output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Tool caches
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+.vite/
+.grunt
+.next
+.nuxt
+.svelte-kit/
+.docusaurus
+.firebase/
+.serverless/
+.fusebox/
+.temp
+**/.vitepress/dist
+**/.vitepress/cache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Package manager files
+.yarn-integrity
+.pnpm-store
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Generated package archives
+*.tgz
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Miscellaneous local files
+.node_repl_history
+.lock-wscript
+bower_components
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.tern-port
+.vscode-test
